@@ -20,9 +20,8 @@ body {
 .menu-wrapper {
     display: block;
     list-style: none;
-    font-size: 10;
+    font-size: 0;
     text-align: center;
-    text-transformation: uppercase;
 }
 
 .menu-item {
@@ -45,54 +44,3 @@ body {
     color: #0099ff;
 }
 
-.content-list {
-    font-size: 0;
-}
-
-.content-item {
-    width: 100%;
-    max-width: 420px;
-    display: inline-block;
-    padding-bottom: 90px;
-}
-
-.content-item:nth-child(odd) {
-    margin-right: 60px;
-}
-
-.content-item .content-pic {
-    width: 100%;
-    max-width: 420px;
-    margin-bottom: 30px;
-}
-
-.content-item p.tag {
-    margin: 0;
-}
-
-.content-item .tag a {
-    color: #cc9999;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.content-item h3 {
-    font-size: 30px;
-    margin-bottom: 40px;
-}
-
-.content-item p {
-    font-size: 14px;
-    line-height: 1.7em;
-}
-
-.loader {
-    text-align: center;
-    margin: 0 auto 70px;
-    display: block;
-    font-size: 20px;
-    border: 1px solid #333;
-    padding: 20px 30px;
-    background: #fff;
-}

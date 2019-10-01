@@ -34,6 +34,7 @@ body {
 }
 
 .menu-item .link {
+    color: #666666;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
@@ -41,6 +42,52 @@ body {
 }
 
 .menu-item .link:hover {
-    color: #0099ff;
+    color: aqua;
+}
+
+.content-item{
+ display: inline-block;
+ width: 100%;
+ max-width: 420px;
+ padding-bottom: 80px;
+}
+.content-item:nth-child(odd){
+    margin-right: 50px;
+}
+.content-item .content-pic{
+    width: 100%;
+    max-width: 420px;
+    margin-bottom:20px;
+}
+.tag{
+    margin-bottom: 20px;
+    
+}
+
+.content-item .tag a {
+    color: #cc9999;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    
+
+}
+.content-item h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.content-item p {
+    font-size: 14px;
+    line-height: 1.3em;
+}
+.load-button{
+    text-align: center;
+    margin: 0 auto 70px;
+    display: block;
+    font-size: 20px;
+    border: 1px solid #333;
+    padding: 20px 30px;
+    background: #fff;
+    text-transform: uppercase;
 }
 

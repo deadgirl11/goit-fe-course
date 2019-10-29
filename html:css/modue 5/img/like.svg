@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="23" viewBox="0 0 26 23">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30px;
+        fill: #fff;
+        font-family: Pe-icon-7-stroke, Pe;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="_" data-name="like" class="cls-1" x="-2.485" y="-1"></text>
+</svg>

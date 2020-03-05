@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Noto Sans, sans-serif ;
+    
 }
 header{
     margin-bottom: 100px;
@@ -25,17 +25,19 @@ header{
     float: left;
 }
 .logo a{
-    color: #000;
     display: block;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    color: #515151;
 }
 .logo a::first-letter {
-  color: aquamarine;
+  color: #4EC6AB;
   font-weight: 900;
-  font-size: 35px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 .nav{
     float: right;
@@ -45,12 +47,15 @@ header{
     margin-bottom: 30px;
     font-size: 50px;
     text-transform: uppercase;
+    font-weight: 700;
+    color: #515151;
+    font-family: 'Roboto', sans-serif;
 }
 .title-item::after{
     content: "";
     height: 8px;
     width: 160px;
-    background-color: aquamarine;
+    background-color: #4EC6AB;
     display:block;
     margin:auto;
     margin-top: 32px;
@@ -66,13 +71,17 @@ header{
 }
 .menu-item{
     margin-right: 15px;
+    margin-top: 10px;
     text-decoration: none; 
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 700;
 }
 .menu-item:last-child{
     margin-right: 0;
 }
 .menu-link:hover{
-color:aquamarine
+color:#4EC6AB;
 }
 .catalog-item{
     float: left;
@@ -82,6 +91,7 @@ color:aquamarine
     margin-bottom: 30px;
     font-size: 18px;
     margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 .catalog-item:nth-child(4n){
 margin-right: 0;
@@ -97,9 +107,10 @@ margin-right: 0;
     width: 200px;
     height: 40px;
     display: inline-block;
-    padding: 14px;  
+    padding: 12px 20px 10px 20px;  
     text-transform: uppercase;
     float: left;
+    font-weight: 600;
     
 }
 .price-clearfix{
@@ -110,25 +121,22 @@ margin-right: 0;
     color: #fff;
     float: left;
     text-transform: uppercase;
-    padding: 14px;
+    padding: 13px;
 }
-.catalog-item:hover .info-clearfix {
-    background-color:rgba(26, 188, 156, 0.7);
-   
+.catalog-item:hover .info-clearfix{
+    background-color: #4ec6ab;
 }
-.price-clearfix:hover{
-    background-color:rgba(26, 188, 156, 0.7);
-   
-}
-.news-clearfix{
-    display: inline-block;
-    float: left;
+.catalog-item:hover .price-clearfix{
+background-color: #7fd9c7;
 }
 .news-item{
     display: inline-block;
     float: left;
     width: 350px;
     margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    color:#515151;
+    padding-bottom: 45px;
 
 }
 .news-item:last-child{
@@ -138,29 +146,34 @@ margin-right: 0;
     margin-bottom: 10px;
 }
 .news-h4{
- font-size: 20px;
+ font-size: 17px;
  margin-bottom: 10px;
  display:inline-block;
+ font-family: "open sans" sans-serif;
+
 
 }
 .news-h4::after{
     content: "";
-    height: 8px;
-    width: 160px;
-    background-color: aquamarine;
+    height: 3px;
+    width: 135px;
+    background-color: #4EC6AB;
     display:block;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 32px;
 }
 .btn{
     width: 160px;
     height: 50px;
-    background-color:aquamarine;
+    background-color:#4EC6AB;
    margin-top: 10px;
     display: inline-block;
     padding: 19px 40px;
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
-
+    border-radius: 3px;
+    font-family: "open sans" sans-serif;
+    font-weight: 200;
+    font-size: 14px;
 }

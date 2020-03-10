@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 header,main,section,footer{
     display: block;
@@ -30,21 +30,27 @@ header,main,section,footer{
     float: left;
 }
 .logo a{
-    color: #000;
+    color: #515151;
     display: block;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
 }
 .logo a:focus{
 outline-color: #1abc9c;
 }
 .logo a::first-letter{
     color: #1abc9c;
-    font-weight: bold;
+    font-weight: 700;
 }
 .header nav{
     float: right;
+}
+.nav{
+ margin-top: 10px;
 }
  .menu__item{
      float: right;
@@ -60,7 +66,9 @@ outline-color: #1abc9c;
      font-weight: bold;
      font-size: 14px;
      text-decoration: none;
-     color: #000;
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+
  }
 .menu__item .menu__link:hover{
     color: #1abc9c;
@@ -75,6 +83,7 @@ outline-color: #1abc9c;
     text-transform: uppercase;
     margin-bottom: 33px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 .title-item::after{
     content: '';
@@ -118,6 +127,8 @@ outline-color: #1abc9c;
     text-transform: uppercase;
     float: left;
     font-size: 18px;
+    height: 40px;
+    padding:5px ;
 }
 .price{
     color:#fff;
@@ -128,6 +139,8 @@ outline-color: #1abc9c;
     text-transform: uppercase;
     float: left;
     font-size: 18px;
+    height:40px;
+    padding: 5px;
 }
 
 .catalog--item:hover .price{
@@ -231,20 +244,21 @@ outline-color: #1abc9c;
 .slider-item{
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 26%;
 }
 .slider-line1, .slider-line2{
     line-height: 1.7;
     color: #fff;
     text-transform: uppercase;
+    font-family: 'Roboto' , sans-serif;
 }
 .slider-line1{
     font-size: 55px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .slider-line2{
 font-size: 22px;
-font-weight: 200;
+font-weight: 300;
 }
  .slider-image{
      width: 100%;
@@ -276,12 +290,19 @@ background-position:center;
     background-position:center;
      }
  .slider-nav-left button, .slider-nav-right button{
-     color: #fff;
+     color: #111111;
      background: none;
      border: none;
-     font-size: 102px;
+     font-size: 150px;
      cursor: pointer;
      width: 100%;
+     height: 100%;
+ }
+.slider-nav-right:hover{
+    opacity: .9;
+ }
+ .slider-nav-left:hover{
+     opacity: .9;
  }
 .slider-nav-left{
     left: 8%;
@@ -300,7 +321,9 @@ background-position:center;
     display: block;
     text-align: center;
     padding-top: 43px;
+    font-family: 'Roboto' , sans-serif;
 }
-.footer-item:hover{
+
+span{
     color: #1abc9c;
-} 
+}

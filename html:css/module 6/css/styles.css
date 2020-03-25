@@ -7,10 +7,7 @@
     --color-white:#fff;
     --gradient:linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
 }
-body{
-    font-family: 'Montserrat', sans-serif;
 
-}
 .container{
     width: 100%;
     max-width: 1200px;
@@ -28,6 +25,7 @@ text-decoration: none;
 flex-basis: 90px;
 font-size: 30px;
 font-weight: 700;
+font-family: 'Open Sans', sans-serif;
 }
 .logo a:hover{
     color: var(--color-red);
@@ -49,6 +47,7 @@ font-weight: 700;
     font-weight: 400;
     text-decoration: none;
     border-bottom: 3px solid var(--color-white);
+    font-family: 'Open Sans', sans-serif;
 }
 .navigation-link:hover{
     color: var(--color-red);
@@ -69,6 +68,7 @@ font-weight: 700;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
 }
 .second-line::after{
     content: '';
@@ -80,17 +80,19 @@ font-weight: 700;
 }
 .block-head-desc{
     color: var(--color-gray);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-transform: capitalize;
     text-align: center;
     line-height: 24px;
     margin-bottom: 90px;
+    font-weight: lighter;
 }
 .services-list{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 .services-list-item{
     width: 320px;
@@ -142,10 +144,10 @@ font-weight: 700;
 }
 
 .services-desc {
-    color: var(--color-black);
-    font-family: 'Roboto', sans-serif;
+    color: var(--color-gray);
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    width: 250px;
+    width: 260px;
     display: inline-block;
     margin-left: 60px;
     line-height: 24px;
@@ -165,17 +167,21 @@ font-weight: 700;
     margin-bottom: 30px;
     position: relative;
 }
+.img{
+    object-fit: cover;
+}
 
 .name {
     color: #333333;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .speciality {
-    color: var(--color-black);
-    font-family: 'Roboto', sans-serif;
+    color: var(--color-gray);
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-transform: capitalize;
     text-align: center;
@@ -245,6 +251,7 @@ font-weight: 700;
 .footer-text {
     font-size: 14px;
     padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .footer-text a {
@@ -255,26 +262,29 @@ font-weight: 700;
 form {
     display: flex;
     justify-content: space-between;
-    width: 300px;
 }
 
 input[type="email"] {
     line-height: 40px;
     padding: 0;
     text-indent: 6px;
-    width: 150px;
+    width: 220px;
     border: 1px solid var(--color-gray);
+    color: var(--color-gray);
+    font-weight: lighter;
+    font-style: italic;
 }
 
 input[type="submit"] {
     line-height: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     width: 150px;
     background-color: var(--color-birch);
     color: var(--color-white);
     border: none;
+    font-weight: bold;
 }
 
 input[type="submit"]:hover {
